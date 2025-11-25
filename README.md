@@ -1,2 +1,3 @@
 # tailwind-project
-## - Creating a responsive static e-commerce single page website with Tailwind css
+
+# branch 2 (E-commerce) contains a static E-store  for Honor mobile phone.
