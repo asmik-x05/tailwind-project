@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+          <script src="https://cdn.tailwindcss.com"></script>
+           <script>
+           tailwind.config={
+            darkMode: "class",
+            theme:{
+                extend:{
+                colors:{
+                    primary:"#3b82f6"
+                }
+            }
+            }
+           };
+
+           </script>
+
+</head>
+<body class="dark">
+    <!-- this is part is for top notice and navbar  -->
+      <div class="text-center text-white bg-blue-950 py-2 dark:bg-white dark:text-black">!! 🚧 Site under construction. Check back soon! 🔨 !!</div>
+    <header class="bg-gray-200 sticky top-0 z-10  dark:bg-gray-800 dark:text-white shadow-lg">
+       
+        <div class="container mx-auto py-2 ">
+        
+        <div class= "flex justify-between px-4 py-1">
+           <h1 class="text-2xl font-semibold hover:text-blue-500"><a href="index.html">Honor</a></h1>
+            
+            <nav class="hidden md:block">
+                 
+                <div class="flex gap-5">
+    
+            <a href="index.html" class=" hover:text-blue-600">Home</a>
+            <a href="#about" class="hover:text-blue-600">About</a>
+            <a href="#product" class="hover:text-blue-600">Product</a>
+            <a href="#blogs" class="hover:text-blue-600">Blogs</a>
+            <a href="#contact" class="hover:text-blue-600">Contact</a>
+              </nav>
+             <div class="flex gap-5">
+                <a href="#" class="fa-solid fa-moon  hover:text-blue-600"></a>
+                <a href="#" class="fa-solid fa-cart-shopping hover:text-blue-600"></a>
+                <a href="#" class="fa-solid fa-user hover:text-blue-600"></a>
+                <a class="fa-solid fa-bars block md:hidden"></a>
+                
+               
+            </div>
+            
+            </div>
+           
+      
+        </div>
+        </div>
+    </header>
+    <main class="dark:bg-gray-400">  
+        <!-- main start here -->
+         <!-- Section for main landing page -->
+        <section class="bg-gradient-to-r from-blue-50 to-blue-300 dark:from-gray-900 dark:to-gray-400">
+ <div class="container mx-auto px-4 py-4 ">
+    <div class="flex items-center justify-between md:flex-row flex-col">
+    <div class="md:w-1/2 dark:text-gray-100 mb-8 md:mb-0">
+        <h1 class="text-4xl md:text-5xl">Honor <span class="font-semibold text-blue-600">400 Pro</span> Overview</h1>
+        <p class="py-4 px-2 text-gray-700 text-lg dark:text-gray-200"> The HONOR 400 Pro has a 6.7-inch 120Hz OLED display, powered by the Snapdragon 8 Gen 3 with 12GB RAM. It features a 200MP main camera, 50MP telephoto, 12MP ultra-wide, and a 50MP front camera. The phone includes a 6,000mAh battery with 100W wired and 50W wireless charging.</p>
+        <div class="flex gap-4">
+        <button class="text-blue-600 rounded-lg p-2 bg-gray-100 border-2 border-blue-600 hover:bg-blue-600 hover:text-gray-100 ">Learn more</button>
+        <button class="bg-blue-600 rounded-lg p-2 text-gray-100 border-2 border-blue-600  hover:bg-blue-700 transition-transform duration-500 active:scale-95 ">Buy Now</button>
+        </div>
+    </div>
+    <div class="md:w-1/2 flex justify-center"><img src="assets/images/hero-img.jpg" alt="image not found" class="rounded-3xl h-90"></div>
+</div>
+ </div></section>
+ <!-- Section for phone lists -->
+         <section class="dark:text-gray-100 dark:bg-gray-600" id="product">
+            <div class="container mx-auto px-8 py-4 ">
+            <h1 class="text-xl py-4 text-blue-500 dark:text-gray-100">Our most selling product</h1>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+                <div class="rounded-xl shadow-lg bg-gray-200 dark:bg-gray-800 hover:-translate-y-1 transition-all duration-300">
+                    <div class="relative"><img src="/assets/images/phone1.jpg" alt="img not found" class="h-72 w-full object-cover cursor-pointer rounded-lg">
+                    <span class="absolute top-2 right-2 text-black"><i class="fa-solid fa-star text-yellow-400"></i>4.1</span>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Honor X9c</h3>
+                     <p class="text-lg font-semibold text-blue-600">&#8377;48,999</p>
+                      <button class="text-center bg-blue-600 rounded-lg p-2 w-full text-gray-100 hover:bg-blue-700 ">Buy Now <i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+                <div class="rounded-xl shadow-lg bg-gray-200 dark:bg-gray-800 hover:-translate-y-1 transition-all duration-300">
+                    <div class="relative"><img src="/assets/images/phone2.jpg" alt="img not found" class="h-72 w-full object-cover cursor-pointer rounded-lg">
+                     <span class="absolute top-2 right-2 text-black"><i class="fa-solid fa-star text-yellow-400"></i>3.8</span></div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Honor 400 Lite</h3>
+                        <p class="text-lg font-semibold text-blue-600">&#8377;39,999</p>
+                        <button class="text-center bg-blue-600 rounded-lg p-2 w-full text-gray-100 hover:bg-blue-700">Buy Now <i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+                <div class="rounded-xl shadow-lg bg-gray-200 dark:bg-gray-800 hover:-translate-y-1 transition-all duration-300">
+                    <div class="relative"><img src="/assets/images/phone3.jpg" alt="img not found" class="h-72 w-full object-cover cursor-pointer rounded-lg">
+                     <span class="absolute top-2 right-2 text-black"><i class="fa-solid fa-star text-yellow-400"></i>4.0</span></div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold"> Honor X8c</h3>
+                     <p class="text-lg font-semibold text-blue-600">&#8377;33,999</p>
+                      <button class="text-center bg-blue-600 rounded-lg p-2 w-full text-gray-100 hover:bg-blue-700">Buy Now <i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+                <div class="rounded-xl shadow-lg bg-gray-200 dark:bg-gray-800 hover:-translate-y-1 transition-all duration-300">
+                    <div class="relative"><img src="/assets/images/phone4.jpg" alt="img not found" class="h-72 w-full object-cover cursor-pointer rounded-lg">
+                     <span class="absolute top-2 right-2 text-black"><i class="fa-solid fa-star text-yellow-400"></i>5</span></div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Honor Magic V2</h3>
+                     <p class="text-lg font-semibold  text-blue-600">&#8377;2,39,999</p>
+                      <button class="text-center bg-blue-600 rounded-lg p-2 w-full text-gray-100 hover:bg-blue-700">Buy Now <i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+            <h2 class="text-right text-xl text-blue-600 p-4 dark:text-gray-100"><a href="#">View more &#8594;</a></h2>
+            </div>
+        </section>
+        <!-- Section for Highlited iteam product  -->
+        <section id="blogs">
+            <div class="container mx-auto px-4 py-4 ">
+                <div class="md:grid md:grid-cols-3 bg-gradient-to-t from-blue-400 to-blue-50 dark:from-gray-500 dark:to-gray-200 dark:text-gray-950 rounded-3xl">
+                  
+                    <div class="px-2 pt-4">
+                        <img src="assets/images/upcomming-img.jpg" alt="image not found" class="object-cover md:h-80 md:w-2/3 rounded-full">    
+                    </div>
+                    <div class="w-full py-12 px-8 col-span-2">
+                    <span class="text-blue-600  text-4xl">Honor Magic V5</span><p class="py-4 text-justify">The Honor Magic V5 is an ultra-slim foldable (8.8 mm folded, 4.21 mm open) with 120Hz dual OLED displays 6.43" outside and 7.95" inside. It runs on a Snapdragon 8 Elite with 16GB RAM, 512GB storage, and a 5,920 mAh battery (65W charging). Cameras include a 50MP main, 50MP ultrawide, 64MP telephoto, and dual 20MP selfies.
+                    </p>
+                <div class="flex gap-4">
+        <button class="text-blue-600 rounded-lg p-2 bg-gray-100 border-2 border-blue-600 hover:bg-blue-600 hover:text-gray-100 ">Learn more</button>
+        <button class="bg-blue-600 rounded-lg p-2 text-gray-100 border-2 border-blue-600  hover:bg-blue-700 transition-transform duration-500 active:scale-95 ">Buy Now</button>
+        </div></div> 
+                    
+                    
+                </div>
+                
+            </div>
+            </section>
+
+            <!-- Why choose us -->
+        <section class="bg-blue-200 dark:bg-gray-300 text-gray-950">
+
+            <div class="container mx-auto px-4 py-4 ">
+            
+                <h1 class="text-center text-4xl pb-4">Why Buy from us</h1>
+                <div class="grid md:grid-cols-3 grid-cols-1 gap-5 px-12 dark:text-gray-100 ">
+                    <div class="rounded-3xl p-10 border-blue-600 dark:border-gray-900 border-2 bg-gradient-to-r from-blue-400 to-blue-50 dark:from-gray-800 dark:to-gray-600 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
+                        <i class="fa-regular fa-credit-card fa-2xl"></i>
+                    
+                        <h3 class="py-4">Secure Payment</h3>
+                        <p>Fast, safe, and secure payments available.</p>
+
+                    </div>
+                    <div class="rounded-3xl p-10 border-blue-600 dark:border-gray-900 border-2 bg-gradient-to-r from-blue-400 to-blue-50 dark:from-gray-800 dark:to-gray-600 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
+                        <i class="fa-solid fa-truck-fast fa-2xl"></i>
+                    
+                        <h3 class="py-4">Fast Delivery</h3>
+                        <p>Product delivered in under 24 hours.</p>
+                    
+                    </div>
+                    <div class="rounded-3xl p-10 border-blue-600 dark:border-gray-900 border-2 bg-gradient-to-r from-blue-400 to-blue-50 dark:from-gray-800 dark:to-gray-600 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
+                        <i class="fa-solid fa-headset fa-2xl"></i>
+                    
+                        <h3 class="py-4">24/7 Support</h3>
+                        <p>Get support anytime with our 24/7 team.</p>
+                    
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+        <!-- Customer review -->
+<section>
+<div class="container mx-auto px-4 py-4 ">
+    <h2 class="text-3xl text-center">Customer Reviews</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    <div class="from-blue-100 to-blue-200 rounded-xl p-5 shadow-lg m-2 bg-gradient-to-r dark:from-gray-800 dark:to-gray-600 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
+        <div class="flex items-center">
+        <img src="/assets/images/user.jpeg" alt="image not found" class="w-12 h-12 object-cover rounded-full" >
+        <div class="ml-4">
+        <h3 class="dark:text-gray-100">User1</h3>
+        <div class="text-yellow-400">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            </div>
+        </div>
+        <p class="dark:text-gray-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ipsam delectus porro beatae, nostrum commodi a itaque possimus tenetur quibusdam!</p>
+    </div>
+    <div class="from-blue-100 to-blue-200 rounded-xl p-5 shadow-lg m-2 bg-gradient-to-r dark:from-gray-800 dark:to-gray-600 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
+        <div class="flex items-center">
+        <img src="/assets/images/user.jpeg" alt="image not found" class="w-12 h-12 object-cover rounded-full" >
+        <div class="ml-4">
+        <h3 class="dark:text-gray-100">User2</h3>
+        <div class="text-yellow-400">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            </div>
+        </div>
+        <p class="dark:text-gray-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ipsam delectus porro beatae, nostrum commodi a itaque possimus tenetur quibusdam!</p>
+    </div>
+    <div class="from-blue-100 to-blue-200 rounded-xl p-5 shadow-lg m-2 bg-gradient-to-r dark:from-gray-800 dark:to-gray-600 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
+        <div class="flex items-center">
+        <img src="/assets/images/user.jpeg" alt="image not found" class="w-12 h-12 object-cover rounded-full" >
+        <div class="ml-4">
+        <h3 class="dark:text-gray-100">User3</h3>
+        <div class="text-yellow-400">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            </div>
+        </div>
+        <p class="dark:text-gray-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ipsam delectus porro beatae, nostrum commodi a itaque possimus tenetur quibusdam!</p>
+    </div>
+</div>
+</div>
+        </section>
+<!-- Contact us -->
+         <section id="contact">
+            <div class="container mx-auto px-4 py-4 ">
+                <h1 class="text-center text-4xl pb-8">Contact us</h1>
+                <div class="grid md:grid-cols-2 justify-stretch gap-5">
+                    <div class="bg-blue-200 rounded-xl p-4 dark:bg-gray-700">
+                        <h2 class="text-xl dark:text-white">Contact information</h2>
+                        <div class="grid grid-rows-4 px-4 py-4 gap-10">
+                            <div>
+                                <span class=" bg-blue-200 rounded-full h-10 p-2">
+                                    <i class="fa-solid fa-location-dot fa-xl text-blue-600"></i>
+                                </span>
+                                <span class="px-4 font-medium dark:text-gray-100">Location</span>
+                            </div>
+                            <div>
+                                <span class="bg-blue-200 rounded-xl h-10 p-2">
+                                    <i class="fa-solid fa-envelope  fa-xl text-blue-600 "></i>
+                                </span>
+                                <span class="px-4 font-medium dark:text-gray-100">Email</span>
+                            </div>
+                            <div>
+                                <span class="bg-blue-200 rounded-xl h-10 p-2">
+                                    <i class="fa-solid fa-phone fa-xl text-blue-600"></i>
+                                </span>
+                                <span class="px-4 font-medium dark:text-gray-100">Phone</span>
+                            </div>
+                            <div>
+                                <span class="bg-blue-200 rounded-xl h-10 p-2">
+                                    <i class="fa-solid fa-business-time fa-xl text-blue-600"></i>
+                                </span>
+                                <span class="px-4 font-medium dark:text-gray-100">Working hour</span>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class=" bg-blue-200 rounded-xl p-4 dark:bg-gray-700 dark:text-gray-100">
+                        <h2 class="text-xl">Message us</h2>
+                        <div>
+                    <form action="">
+                        <div class="flex flex-col text-lg">
+                                <label for="name">Name:</label>
+                                <input type="text" name="name" id="name" class="border-2 border-gray-600 rounded-lg text-gray-800">
+                                 <label for="email">Email:</label>
+                                <input type="email" name="email" id="email" class="border-2 border-gray-600 rounded-lg text-gray-800">
+                                <label for="msg">Message:</label>
+                                <textarea name="msg" id="msg" class="border-2 border-gray-600 rounded-lg h-20 text-gray-800"></textarea>
+                                <button type="reset" class="p-4 bg-blue-500 w-2/3  md:w-1/3 text-center rounded-2xl mt-5 text-gray-100 hover:bg-blue-800">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+         </section>
+    </main>
+    <!-- Footer srarts here  -->
+    <footer class="bg-blue-950 dark:bg-gray-800 text-gray-100" id="about">
+        <div class="container mx-auto px-4 py-4">
+            <div class="grid gap-4 md:grid-cols-4 pb-8">
+            <div>
+                <h3 class="text-xl">Honor</h3>
+                <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat culpa ratione minus, dicta et officiis.</p>
+                <div class="py-4">
+                    <i class="fa-brands fa-facebook fa-xl"></i>
+                    <i class="fa-brands fa-instagram fa-xl"></i>
+                    <i class="fa-brands fa-x-twitter fa-xl"></i>
+                    <i class="fa-brands fa-linkedin fa-xl"></i>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-xl">Quick link</h3>
+                <div class="grid">
+                <a href="index.html">Home</a>
+            <a href="#about">About</a>
+            <a href="#product">Product</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#contact">Contact</a>
+            </div>
+            </div>
+            <div>
+                <h3 class="text-xl">Customer Service</h3>
+                <div class="grid">
+                <a href="#about">FAQs</a>
+            <a href="#about">Privacy Policy</a>
+            <a href="#about">Terms and condition</a>
+            <a href="#about">Support center</a>
+           
+            </div>
+            </div>
+            <div>
+               <h3 class="text-xl">We accept</h3>
+               <div class="text-3xl">
+                <i class="fa-brands fa-cc-visa text-blue-600 bg-white"></i>
+                <i class="fa-brands fa-cc-mastercard text-red-600 bg-white"></i>
+                <i class="fa-brands fa-cc-apple-pay"></i>
+                <i class="fa-solid fa-building-columns text-yellow-700 bg-white"></i>
+               </div>
+            </div>
+        </div>
+        <hr>
+        <div><p class="text-center text-lg">&copy;2025 Honor All right reserved</p></div>
+    </div>
+        
+    
+    </footer>
+</body>
+</html>
