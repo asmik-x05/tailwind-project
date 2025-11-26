@@ -17,11 +17,13 @@
             }
             }
            };
-
+         function darkTh(){
+            document.getElementById('da-li').classList.toggle('dark');
+        }
            </script>
 
 </head>
-<body class="dark">
+<body class="" id="da-li">
     <!-- this is part is for top notice and navbar  -->
       <div class="text-center text-white bg-blue-950 py-2 dark:bg-white dark:text-black">!! 🚧 Site under construction. Check back soon! 🔨 !!</div>
     <header class="bg-gray-200 sticky top-0 z-10  dark:bg-gray-800 dark:text-white shadow-lg">
@@ -31,7 +33,7 @@
         <div class= "flex justify-between px-4 py-1">
            <h1 class="text-2xl font-semibold hover:text-blue-500"><a href="index.html">Honor</a></h1>
             
-            <nav class="hidden md:block">
+            <nav class="hidden md:block" >
                  
                 <div class="flex gap-5">
     
@@ -42,10 +44,10 @@
             <a href="#contact" class="hover:text-blue-600">Contact</a>
               </nav>
              <div class="flex gap-5">
-                <a href="#" class="fa-solid fa-moon  hover:text-blue-600"></a>
+                <i href="#" class="fa-solid fa-moon  hover:text-blue-600 cursor-pointer" onclick="darkTh()"></i>
                 <a href="#" class="fa-solid fa-cart-shopping hover:text-blue-600"></a>
                 <a href="#" class="fa-solid fa-user hover:text-blue-600"></a>
-                <a class="fa-solid fa-bars block md:hidden"></a>
+                <a class="fa-solid fa-bars block md:hidden cursor-pointer"></a>
                 
                
             </div>
